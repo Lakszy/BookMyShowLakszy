@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-prev{
+    left: 1% !important;
+    z-index: 1;
+    display: block; background-color: black; border-radius: 29px; opacity: 0.6; margin: -1.8rem 0.6rem; z-index: 2; width: 40px; height: 40px; padding: 8px 16px;
+}
+.slick-next{
+    right: 1% !important;
+    z-index: 1;
+    display: block; background-color: black; border-radius: 29px; opacity: 0.6; margin: -1.8rem 0.6rem; z-index: 2; width: 40px; height: 40px; padding: 8px 16px;
+}
